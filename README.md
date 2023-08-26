@@ -10,10 +10,10 @@ Clone this repo and run `npm i` and then `npm start`
 
 * We've removed the login/logout functionality so you don't have to login each time to see your changes.
 
-* Note that the Redux setup is done for you, the purpose of this excercise is to get familiar with `mapStateToProps` to pass the data to your components. You will also be creating the containers.
+* Note that the Redux setup is done for you, the purpose of this exercise is to get familiar with `mapStateToProps` to pass the data to your components. You will also be creating the containers.
 
 * Even though the setup has been done, please go look at the files under the "redux" folder. Remember, there are __3 files__ needed for this setup. They are:
-    * `state.js`: The inital state of your application
+    * `state.js`: The initial state of your application
     * `reducers.js`: A file with functions that determine how to serve your state (more on that next lesson)
     * `store.js`: The combination of "state" and "reducers" that is injected into your application via the `Provider`
 
